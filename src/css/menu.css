@@ -11,7 +11,9 @@
   padding: 0 15px;
   
 }
-
+ul.li{
+  list-style-type: none;
+}
 .navbar {
   position: absolute;
   left: 0;

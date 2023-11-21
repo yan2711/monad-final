@@ -10,7 +10,6 @@
   }
   
   
-  
   .slider-list {
     width: 400px;
     height: 163px;
@@ -86,18 +85,20 @@
   
   
   }
-  @media screen and (max-width: 576px) {
-    .slider {
-     width: 340px;
-     margin-left: -24px;
-    }
+
+
+@media screen and (max-width: 576px) {
+ .slider {
+  width: 340px;
+  margin-left: -24px;
+ }
+
+ .slider-list {
+  width: 340px;
+ }
+
+ .slide {
+  width: 360px;
+ }
    
-    .slider-list {
-     width: 340px;
-    }
-   
-    .slide {
-     width: 360px;
-    }
-      
-   }
+}
