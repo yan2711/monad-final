@@ -949,6 +949,7 @@ a {
     margin-bottom: 0; }
 
   .block-community__container {
+    margin-left: 34px;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap; }
 
@@ -1045,7 +1046,9 @@ a {
   .grant-wrapper__subtitle {
     font-size: 16px;
     line-height: 24px;
-    text-align: center; }
+    text-align: center;
+    margin-left: 18px;
+    width: 90%; }
 
   .ecosys {
     display: none;
