@@ -97,7 +97,7 @@ ul.li{
     .bar {
       display: block;
       width: 30px;
-      height: 3px;
+      height: 2px;
       margin: 6px auto;
       background-color: #fff;
       transition: 0.2s;
@@ -199,7 +199,7 @@ ul.li{
     }
     
   }
-  @media (max-width: 453px) {
+  @media (max-width: 500px) {
 
     .header-logo{
       display: flex;
@@ -214,4 +214,9 @@ ul.li{
       margin-top: 10px;
       margin-left: -10px;
   }
+  }
+  @media (max-width: 400px) {
+    .img-logo{
+      margin-top: 15px;
+    }
   }
