@@ -3,6 +3,7 @@
   padding: 0; }
 
 body {
+  overflow-x: hidden;
   background-color: black; }
 
 button {
@@ -1352,5 +1353,8 @@ a {
 
   .all-block__cards {
     margin-left: 70px; } }
+@media screen and (max-width: 700px) {
+  .grant-img {
+    margin-left: -70px; } }
 
 /*# sourceMappingURL=main.css.map */
