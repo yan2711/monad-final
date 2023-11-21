@@ -8,6 +8,8 @@
     user-select: none;
     touch-action: pan-y;
   }
+
+
   
   
   .slider-list {
@@ -49,11 +51,14 @@
     font-size: 30px;
     cursor: pointer;
     color: #fff;
+    opacity: .25;
+    pointer-events: none;
+    
   }
   
   .next.disabled,
   .prev.disabled {
-    opacity: .25;
+    opacity: 1;
     pointer-events: none;
   }
   .img{
