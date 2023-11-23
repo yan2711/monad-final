@@ -449,7 +449,16 @@
     width: 317px; }
 
   .block-community__wrapper {
-    margin-right: 0; } }
+    margin-right: 0; }
+
+  .footer-nav__adaptive {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; } }
 @media screen and (max-width: 870px) {
   .article-header__headline {
     font-size: 30px; }
