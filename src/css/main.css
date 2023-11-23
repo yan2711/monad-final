@@ -4,7 +4,9 @@
 
 body {
   overflow-x: hidden;
-  background-color: black; }
+  background-color: black;
+  font-family: "Merriweather", serif;
+  font-family: "Montserrat", sans-serif; }
 
 button {
   cursor: pointer; }
@@ -86,14 +88,12 @@ a {
   display: none; }
 
 .header-btn {
-  width: Fixed 193px;
-  height: Hug 48px;
-  padding: 12px 28px 12px 28px;
+  width: 193px;
+  height: 48px;
   border-radius: 20px;
   gap: 8px;
   border: none;
   background-color: #836ff9;
-  margin-right: 12px;
   color: #ededed;
   font-family: Montserrat;
   font-size: 18px;
@@ -103,9 +103,8 @@ a {
   text-align: center; }
 
 .header-btn__O {
-  width: Fixed 193px;
-  height: Hug 48px;
-  padding: 12px 28px 12px 28px;
+  width: 193px;
+  height: 48px;
   border-radius: 20px;
   border: 1px solid #836ff9;
   background-color: rgba(0, 0, 0, 0);
@@ -1046,9 +1045,7 @@ a {
   .grant-wrapper__subtitle {
     font-size: 16px;
     line-height: 24px;
-    text-align: center;
-    margin-left: 18px;
-    width: 90%; }
+    text-align: center; }
 
   .ecosys {
     display: none;
@@ -1158,6 +1155,22 @@ a {
   .footer-community__adaptive {
     text-align: center; } }
 @media screen and (max-width: 576px) {
+  .header-container {
+    margin-top: 25px;
+    margin-left: 15px; }
+
+  .header-logo {
+    font-size: 20px; }
+
+  .spec__header {
+    font-size: 20px; }
+
+  .logo {
+    width: 28px; }
+
+  .header-block__img {
+    width: 28px; }
+
   .header-wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1184,16 +1197,35 @@ a {
     font-weight: 600;
     line-height: 36px;
     letter-spacing: 0em;
-    text-align: left;
     width: 346px; }
 
   .header-subtitle {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
     width: 346px; }
+
+  .header-btn {
+    font-size: 16px;
+    width: 169px; }
+
+  .header-btn__O {
+    font-size: 16px;
+    width: 169px; }
+
+  .block-community__title {
+    font-size: 24px; }
+
+  .block-community__subtitle {
+    font-size: 16px;
+    width: auto;
+    padding: 0 20px; }
+
+  .poap-block__title {
+    font-size: 24px;
+    padding-bottom: 0; }
 
   .poap-block__wrapper {
     height: auto;
@@ -1256,7 +1288,8 @@ a {
 
   .grant-adaptive__text {
     display: block;
-    margin: 0; }
+    margin: 0;
+    padding: 0 20px; }
 
   .poap-block__cards {
     display: none;
@@ -1264,6 +1297,9 @@ a {
 
   .slider {
     display: block; }
+
+  .ecosys-row__card {
+    margin-top: 0; }
 
   .news-block__wrapper {
     margin-right: 0;
@@ -1277,23 +1313,73 @@ a {
   .header-container {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
-            justify-content: flex-start; } }
+            justify-content: flex-start; }
+
+  .news-block__header {
+    padding-top: 72px;
+    padding-bottom: 24px; }
+
+  .news-block__title {
+    font-size: 24px;
+    padding-bottom: 0; }
+
+  .news-block__subtitle {
+    font-size: 16px; }
+
+  .news-block__button button {
+    font-size: 16px;
+    padding: 8px 28px; } }
+@media screen and (max-width: 380px) {
+  .block-community__container {
+    margin-left: 0;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly; }
+
+  .block-community__wrapper {
+    width: 168px;
+    height: 194px;
+    margin-right: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+
+  .img-roles {
+    width: 102px; }
+
+  .roles-wrapper__title {
+    font-size: 16px;
+    margin-top: 12px;
+    margin-bottom: 4px;
+    width: 144px;
+    margin-left: 0; }
+
+  .roles-wrapper__subtitle {
+    font-size: 14px;
+    width: 144px;
+    line-height: 20px;
+    margin-left: 0; }
+
+  .ecosys-block__title {
+    margin-bottom: 0; }
+
+  .ecosys-block__rows {
+    margin-top: 0; } }
 @media screen and (max-width: 360px) {
   .header-title {
     width: auto;
-    font-size: 24px;
-    padding-left: 10px; }
+    font-size: 24px; }
 
   .header-subtitle {
     width: auto;
-    font-size: 16px;
-    padding-left: 10px; }
+    font-size: 16px; }
 
   .header-btn {
     margin-bottom: 10px; }
-
-  .block-community__title {
-    font-size: 42px; }
 
   .ecosys-card__adaptive {
     width: 317px; }
@@ -1330,6 +1416,25 @@ a {
 
   .article-text {
     padding-right: 0; } }
+@media screen and (max-width: 576px) {
+  .article-header__headline {
+    font-size: 24px; }
+
+  .article-header__text {
+    font-size: 16px; }
+
+  .article-market__header {
+    font-size: 20px;
+    padding-top: 0; }
+
+  .article-market__pluses, .article-market__minuses {
+    font-size: 18px; }
+
+  .article-adaptive__image {
+    padding-bottom: 20px; } }
+@media screen and (max-width: 380px) {
+  .article-adaptive__image img {
+    width: 300px; } }
 @media screen and (max-width: 1244px) {
   .block-search {
     display: -webkit-box;
@@ -1404,8 +1509,14 @@ a {
   .all-block__cards {
     margin: 0; } }
 @media screen and (max-width: 576px) {
+  .header-logo {
+    width: auto; }
+
   .searc-title {
-    margin: 0; }
+    display: none;
+    margin: 0;
+    font-size: 24px;
+    line-height: 28px; }
 
   .wrapper-search {
     -webkit-box-orient: vertical;
@@ -1418,15 +1529,36 @@ a {
     width: auto; }
 
   .search-btn {
-    margin-top: 10px; }
+    margin-top: 10px;
+    margin-left: 0; }
 
   .all-block__card {
     margin-right: 0; }
 
+  .Latest-block__title {
+    font-size: 24px; }
+
   .Latest-block__wrapper {
-    width: 320px; }
+    width: 348px; }
+
+  .Latest-wrapper__title {
+    font-size: 18px; }
+
+  .Latest-wrapper__subtitle {
+    font-size: 14px; }
 
   .Latest-img__adaptive img {
-    width: 300px; } }
+    width: 300px; }
+
+  .all-block__title {
+    font-size: 24px; } }
+@media screen and (max-width: 450px) {
+  .Latest-block__title {
+    text-align: left;
+    margin-left: 50px; }
+
+  .all-block__title {
+    text-align: left;
+    margin-left: 50px; } }
 
 /*# sourceMappingURL=main.css.map */

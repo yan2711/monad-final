@@ -111,8 +111,7 @@
     font-size: 16px
     line-height: 24px
     text-align: center
-    margin-left: 18px
-    width: 90%
+
 
  .ecosys
   display: none
@@ -209,9 +208,21 @@
 
 
 @media screen and (max-width: 576px)
-  .header-container
-   margin-top: 25px
-   display: none
+ .header-container
+  margin-top: 25px
+  margin-left: 15px
+
+ .header-logo
+  font-size: 20px
+
+ .spec__header
+  font-size: 20px
+
+ .logo
+  width: 28px
+
+ .header-block__img
+  width: 28px
 
  .header-wrapper
   display: flex
@@ -231,16 +242,35 @@
   font-weight: 600
   line-height: 36px
   letter-spacing: 0em
-  text-align: left
   width: 346px
 
  .header-subtitle
-  font-size: 18px
+  font-size: 16px
   font-weight: 400
   line-height: 24px
   letter-spacing: 0em
   text-align: left
   width: 346px
+
+ .header-btn
+  font-size: 16px
+  width: 169px
+  
+ .header-btn__O
+  font-size: 16px
+  width: 169px
+
+ .block-community__title
+  font-size: 24px
+
+ .block-community__subtitle
+  font-size: 16px
+  width: auto
+  padding: 0 20px
+
+ .poap-block__title
+  font-size: 24px
+  padding-bottom: 0
 
  .poap-block__wrapper
   height: auto
@@ -291,6 +321,7 @@
  .grant-adaptive__text
   display: block
   margin: 0
+  padding: 0 20px
 
  .poap-block__cards
   display: none
@@ -298,6 +329,9 @@
 
  .slider
   display: block
+
+ .ecosys-row__card
+  margin-top: 0
 
  .news-block__wrapper
   margin-right: 0
@@ -311,23 +345,69 @@
  .header-container
   justify-content: flex-start
 
+ .news-block__header
+  padding-top: 72px
+  padding-bottom: 24px
+
+ .news-block__title
+  font-size: 24px
+  padding-bottom: 0
+
+ .news-block__subtitle
+  font-size: 16px
+
+ .news-block__button button 
+  font-size: 16px
+  padding: 8px 28px
+
+@media screen and (max-width: 380px)
+ .block-community__container
+  margin-left: 0
+  justify-content: space-evenly
+
+ .block-community__wrapper
+  width: 168px
+  height: 194px
+  margin-right: 0
+  display: flex
+  flex-direction: column
+
+ .img-roles
+  width: 102px
+
+ .roles-wrapper__title
+  font-size: 16px
+  margin-top: 12px
+  margin-bottom: 4px
+  width: 144px
+  margin-left: 0
+
+ .roles-wrapper__subtitle
+  font-size: 14px
+  width: 144px
+  line-height: 20px
+  margin-left: 0
+
+ .ecosys-block__title
+  margin-bottom: 0
+
+ .ecosys-block__rows
+  margin-top: 0
+
+
+
 @media screen and (max-width: 360px)
 
  .header-title
   width: auto
   font-size: 24px
-  padding-left: 10px
 
  .header-subtitle
   width: auto
   font-size: 16px
-  padding-left: 10px
 
  .header-btn
   margin-bottom: 10px
-
- .block-community__title
-  font-size: 42px
 
  .ecosys-card__adaptive
   width: 317px
@@ -371,6 +451,28 @@
  .article-text
   padding-right: 0
 
+@media screen and (max-width: 576px)
+ 
+ .article-header__headline
+  font-size: 24px
+
+ .article-header__text
+  font-size: 16px
+
+ .article-market__header
+  font-size: 20px
+  padding-top: 0
+
+ .article-market__pluses, .article-market__minuses
+  font-size: 18px
+
+ .article-adaptive__image
+  padding-bottom: 20px
+
+@media screen and (max-width: 380px)
+ .article-adaptive__image img
+  width: 300px
+ 
 
 
 // new page News
@@ -446,8 +548,14 @@
 
 @media screen and (max-width: 576px)
 
+ .header-logo
+  width: auto
+
  .searc-title
+  display: none
   margin: 0
+  font-size: 24px
+  line-height: 28px
 
  .wrapper-search
   flex-direction: column
@@ -458,12 +566,35 @@
 
  .search-btn
   margin-top: 10px
+  margin-left: 0
 
  .all-block__card
   margin-right: 0
 
+
+ .Latest-block__title
+  font-size: 24px
+
  .Latest-block__wrapper
-  width: 320px
+  width: 348px
+
+ .Latest-wrapper__title
+  font-size: 18px
+
+ .Latest-wrapper__subtitle
+  font-size: 14px
 
  .Latest-img__adaptive img
   width: 300px
+
+ .all-block__title
+  font-size: 24px
+
+@media screen and (max-width: 450px )
+ .Latest-block__title
+  text-align: left
+  margin-left: 50px
+ 
+ .all-block__title
+  text-align: left
+  margin-left: 50px

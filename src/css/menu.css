@@ -148,6 +148,7 @@ ul.li{
       width: auto;
       display: flex;
       justify-content: start;
+      align-items: center;
       margin-left: 21px;
       padding: 20px 0;
       font-family: Montserrat;
@@ -185,9 +186,7 @@ ul.li{
       width: 100%;
     }
     .img-logo{
-      width: 7%;
-      height: 1%;
-      margin-top: 6px;
+      width: 28px;
     }
     .menu-wrapper{
       display: flex;
@@ -209,14 +208,13 @@ ul.li{
       margin-left: 7px;
     }
     .img-logo {
-      width: 7%;
-      height: 1%;
-      margin-top: 10px;
-      margin-left: -10px;
+      width: 28px;
   }
   }
-  @media (max-width: 400px) {
-    .img-logo{
-      margin-top: 15px;
-    }
+
+ @media screen and (max-width: 380px) {
+  .header-logo{
+   font-size: 20px;
   }
+ }
+  
